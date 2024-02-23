@@ -2696,7 +2696,7 @@ input, select, textarea {
 			}
 			
 			.tiles article:nth-child(8n):before {
-				background-image: url("../../images/banner-image-1.png");
+				background-image: url("../../images/banner-image-1.webp");
 			}
 			
 			.tiles article:nth-child(9n):before {
@@ -3581,7 +3581,7 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background-image: url("../../images/dark.png");
+		background-image: url("../../images/dark.webp");
 		
 	}
 
