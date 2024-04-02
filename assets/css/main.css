@@ -1,14 +1,6 @@
-@import url(https://db.onlinewebfonts.com/c/3c471385717f118ae2efdeabbdc50824?family=Academy+Engraved+LET);
-
 @font-face {
     font-family: "Academy Engraved LET";
-    src: url("../fonts/Academy-Engraved-LET-Plain.ttf"),
-    url("https://db.onlinewebfonts.com/t/3c471385717f118ae2efdeabbdc50824.eot"),
-    url("https://db.onlinewebfonts.com/t/3c471385717f118ae2efdeabbdc50824.eot?#iefix")format("embedded-opentype"),
-    url("https://db.onlinewebfonts.com/t/3c471385717f118ae2efdeabbdc50824.woff2")format("woff2"),
-    url("https://db.onlinewebfonts.com/t/3c471385717f118ae2efdeabbdc50824.woff")format("woff"),
-    url("https://db.onlinewebfonts.com/t/3c471385717f118ae2efdeabbdc50824.ttf")format("truetype"),
-    url("https://db.onlinewebfonts.com/t/3c471385717f118ae2efdeabbdc50824.svg#Academy Engraved LET")format("svg");
+    src: url("../fonts/Academy-Engraved-LET-Plain.ttf");
 }
 
 html, body, div, span, applet, object,
