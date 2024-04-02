@@ -126,7 +126,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Academy Engraved LET", Serif;
+		font-family: "Academy Engraved LET", 'Didot', Serif;
 		font-size: 17pt;
 		font-weight: 300;
 		letter-spacing: 0.025em;
