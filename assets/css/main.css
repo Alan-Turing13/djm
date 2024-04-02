@@ -1,6 +1,7 @@
 @font-face {
     font-family: "Academy Engraved LET";
-    src: url("../fonts/Academy-Engraved-LET-Plain.ttf");
+    src: url("../fonts/Academy-Engraved-LET-Plain.woff") format("woff"),
+	 url("../fonts/Academy-Engraved-LET-Plain.ttf") format("truetype");
 }
 
 html, body, div, span, applet, object,
