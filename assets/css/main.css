@@ -2654,63 +2654,71 @@ input, select, textarea {
 				width: 60%;
 			}
 
-			.tiles article:nth-child(6n - 5):before {
+			.tiles article:nth-child(1n):before {
+				background-color: #1B3C73;
+			}
+
+			.tiles article:nth-child(2n):before {
+				background-color: #3E3232;
+			}
+
+			.tiles article:nth-child(3n):before {
 				background-color: #201658;
 			}
 
-			.tiles article:nth-child(6n - 4):before {
+			.tiles article:nth-child(4n):before {
 				background-color: #40679E;
 			}
 
-			.tiles article:nth-child(6n - 3):before {
+			.tiles article:nth-child(5n):before {
 				background-color: #9B4444;
 			}
 
-			.tiles article:nth-child(6n - 2):before {
+			.tiles article:nth-child(6n):before {
 				background-color: #FF8911;
 			}
 
-			.tiles article:nth-child(6n - 1):before {
+			.tiles article:nth-child(7n):before {
 				background-color: #393E46;
 			}
 
-			.tiles article:nth-child(6n):before {
+			.tiles article:nth-child(8n):before {
 				background-color: #87c5a4;
 			}
 
-			.tiles article:nth-child(7n):before {
+			.tiles article:nth-child(9n):before {
 				background-color: #900D0D;
 			}
 			
-			.tiles article:nth-child(8n):before {
+			.tiles article:nth-child(10n):before {
 				background-image: url("../../images/banner-image-1.webp");
 			}
 			
-			.tiles article:nth-child(9n):before {
+			.tiles article:nth-child(11n):before {
 				background-color: #416D19;
 			}
 			
-			.tiles article:nth-child(10n):before {
+			.tiles article:nth-child(12n):before {
 				background-color: #3E3232;
 			}
 			
-			.tiles article:nth-child(12n):before {
+			.tiles article:nth-child(13n):before {
 				background-color: #6D2932;
 			}
 
-			.tiles article:nth-child(13n):before {
+			.tiles article:nth-child(14n):before {
 				background-color: #436850;
 			}			
 
-			.tiles article:nth-child(14n):before {
+			.tiles article:nth-child(16):before {
 				background-color: #FF407D;
 			}			
 			
-			.tiles article:nth-child(15n):before {
+			.tiles article:nth-child(17n):before {
 				background-color: #1B3C73;
 			}			
 			
-			.tiles article:nth-child(16n):before {
+			.tiles article:nth-child(18n):before {
 				background-color: #201658;
 			}			
 
