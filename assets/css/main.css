@@ -2678,11 +2678,11 @@ input, select, textarea {
 				background-color: #FF8911;
 			}
 
-			.tiles article:nth-child(7n):before {
+			.tiles article:nth-child(8n):before {
 				background-color: #393E46;
 			}
 
-			.tiles article:nth-child(8n):before {
+			.tiles article:nth-child(7n):before {
 				background-color: #87c5a4;
 			}
 
@@ -2710,17 +2710,19 @@ input, select, textarea {
 				background-color: #436850;
 			}			
 
-			.tiles article:nth-child(16):before {
+			/* .tiles article:nth-child(17n):before {
 				background-color: #FF407D;
-			}			
+			}			 */
 			
+			/* silence's garden */
 			.tiles article:nth-child(17n):before {
 				background-color: #1B3C73;
 			}			
 			
-			.tiles article:nth-child(18n):before {
+			/* ronnies */
+			/* .tiles article:nth-child(18n):before {
 				background-color: #201658;
-			}			
+			}			 */
 
 		@media screen and (max-width: 1280px) {
 
