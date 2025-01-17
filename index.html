@@ -21,17 +21,23 @@
 							<!-- START MULTI-COLOURED TEXT -->
 							<h1 id="multi-colored" style="padding-top: 5%; margin-top: 10%;" >Dominic J Marshall</h1>
 							<script>
-								const h1 = document.getElementById('multi-colored');
-								const text = h1.textContent;
 								const colors = ['color1', 'color2', 'color3', 'color4'];
-								let result = '';
-
-								for (let i = 0; i < text.length; i++) {
-									const colorClass = colors[i % 4];
-									result += '<span class="' + colorClass + '">' + text.charAt(i) + '</span>';
+							
+								function applyMultiColorText(elementId) {
+									const element = document.getElementById(elementId);
+									const text = element.innerText;
+									let result = '';
+							
+									for (let i = 0; i < text.length; i++) {
+										const colorClass = colors[i % 4];
+										result += '<span class="' + colorClass + '">' + text.charAt(i) + '</span>';
+									}
+							
+									element.innerHTML = result;
 								}
-
-								h1.innerHTML = result;
+							
+								applyMultiColorText('multi-colored'); // For H1
+								applyMultiColorText('multi-colored-h4'); // For the text in H4
 							</script>
 							<!-- END MULTI-COLOURED TEXT -->
 
@@ -48,16 +54,22 @@
 								<li><a href="https://www.youtube.com/watch?v=KYtX5TK0-w0&ab_channel=jazzre%3Afreshed" class="button"><img src="images/jazz-refreshed-logo-1200px.webp" alt="jref" width="24" height="24"></a></li>
 								<li><a href="https://www.youtube.com/@minidocj/videos?view=0&sort=dd&shelf_id=0" class="button"><img src="images/yt-2.webp" alt="youtube 2" width="24" height="24"></a></li>
 							</ul>
-							<a href="https://www.youtube.com/watch?v=s56KGU9ZpiQ&ab_channel=DominicJMarshall">
-								<img style="width:40%; margin-top: 5px; padding-bottom: 10%; display:inline;" src="images/cinnabun-dalston.jpg">
-							</a>
+							<div style="width:40%; margin-top: 5px; padding-bottom: 5%; display:inline;">
+								<h3 id="multi-colored-h4">Fire-breathing Lion out Feb 7th<br>
+									<ul>
+										<li><a href="https://distrokid.com/hyperfollow/dominicjmarshall/fire-breathing-lion">Pre-save on Spotify</a><br></li>
+										<li><a href="https://music.apple.com/us/album/fire-breathing-lion/1790972368">Pre-save on iTunes</a></li>
+									</ul>
+								</h3>
+							</div>
 						</div>
 					</section>
 
 				<!-- Main -->
 					<div id="main">
 						<!-- One -->
-							<section id="one" class="tiles" style="margin-top: 5%; padding-top: 5%;">
+							<!-- <section id="one" class="tiles" style="margin-top: 5%; padding-top: 5%;"> -->
+							<section id="one" class="tiles" style="margin-top: 5%;">
 								<article>
 									<span class="image">
 										<img src="images/cinnabun.webp" alt="cinnabun" />
